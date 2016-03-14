@@ -17,7 +17,7 @@ public class XToO {
 			System.out.println(str);
 		}
 		
-		
+		  
 		
 //		String s ="39";
 //		int t = object.XtoD(s);
