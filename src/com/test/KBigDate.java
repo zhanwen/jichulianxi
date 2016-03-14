@@ -5,10 +5,10 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class KBigDate {
-
+   
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		  
 		ArrayList<Integer> rs = new ArrayList<Integer>();
 		int n = sc.nextInt();
 		
