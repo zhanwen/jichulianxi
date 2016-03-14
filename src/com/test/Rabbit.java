@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class GuiTu {
+public class Rabbit {
 	
 	private static final String T = "T";
 	private static final String R = "R";
