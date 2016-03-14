@@ -33,7 +33,7 @@ public class SearchInteger {
 		
 		
 	}
-	
+	  
 	public int find(int n, int[] a, int x) {
 		int index = -1;
 		
