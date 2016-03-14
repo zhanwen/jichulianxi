@@ -1,7 +1,7 @@
 package com.test;
 
 import java.util.Scanner;
-public class JieCheng2 {
+public class Factorial2 {
 	
 	
     public static void printArr(int[] arr){
