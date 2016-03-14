@@ -15,7 +15,7 @@ public class KHaoShu {
 		{
 			f[1][i]=1;
 		}
-			  
+			    
 		for(int i=2;i<=l;i++)  
 		{  
 			for(int j=0;j<=k-1;j++)  
