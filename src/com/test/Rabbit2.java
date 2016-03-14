@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class GuiTu2 {
+public class Rabbit2 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
