@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class HuangHou {
+public class Queen {
 	private final static int N = 100;
 	private static int[] wq = new int[N]; //黑皇后
 	private static int[] bq = new int[N]; //白皇后
