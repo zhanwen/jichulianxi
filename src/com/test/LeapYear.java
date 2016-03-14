@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class RuiNian {
+public class LeapYear {
 
 	public static void main(String[] args) {
 		
