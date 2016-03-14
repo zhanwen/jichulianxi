@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class ZimuTeZheng {
+public class CharSort {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
