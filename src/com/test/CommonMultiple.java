@@ -1,6 +1,6 @@
 package com.test;
 import java.util.Scanner;
-public class GongPeiShu {
+public class CommonMultiple {
 	
 	private static long EOF = -1;
 	
