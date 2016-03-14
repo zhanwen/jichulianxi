@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class QuShu {
+public class BackNumber {
 	
 	private static int  n;
 	private static int m;
