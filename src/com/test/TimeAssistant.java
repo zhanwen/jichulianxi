@@ -2,7 +2,7 @@ package com.test;
 
 import java.util.Scanner;
 
-public class BaoShiZhuShu {
+public class TimeAssistant {
 	public static void main(String[] args) {
 		String[] str = {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen",
 				"fifteen","sixteen","seventeen","eighteen","nineteen","twenty"};
