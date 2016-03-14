@@ -18,4 +18,4 @@ public class SubString {
 			System.out.println();
 		}
 	}
-}
+}  
