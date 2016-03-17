@@ -19,8 +19,8 @@ public class ChipTest {
 		for(int j = 0; j < n; j++) {
 			int count = 0;
 			
-			for(int i = 0; i <n; i++) {
-				count += a[j][i];
+			for(int i = 0; i < n; i++) {
+				count += a[i][j];
 			}
 			
 			if(count > n/2) {
