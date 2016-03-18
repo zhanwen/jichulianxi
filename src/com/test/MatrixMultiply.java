@@ -18,7 +18,7 @@ public class MatrixMultiply {
 				a[i][j] = sc.nextInt();
 			}
 		}
-		
+		//对c数组进行初始化
 		for(int i = 0; i < n; i++)
 		{
 			for(int j = 0; j < c[i].length; j++)
@@ -37,7 +37,7 @@ public class MatrixMultiply {
 				}
 			}
 			
-			
+			//借助b数组和c数组来完成矩阵的乘机，将两个矩阵相乘保存在c数组中
 			for(int i = 0; i < m-1; i++)
 			{
 				for(int j = 0; j < n; j++)
@@ -50,7 +50,7 @@ public class MatrixMultiply {
 						}
 					}
 				}
-				
+				//将c数组转向b数组
 				for(int e = 0; e < n; e++)
 				{
 					for(int f = 0; f < n; f++)
@@ -58,7 +58,7 @@ public class MatrixMultiply {
 						b[e][f] = c[e][f];
 					}
 				}
-				
+				//对c数组进行清零，进行下一次的矩阵乘
 				for(int w = 0; w < n; w++)
 				{
 					for(int q = 0; q < c[w].length; q++)
@@ -73,6 +73,7 @@ public class MatrixMultiply {
 		}
 		else
 		{
+			//对b数组进行初始化
 			for(int k = 0; k < n; k++)
 			{
 				for(int l = 0; l < b[k].length; l++)
@@ -81,7 +82,7 @@ public class MatrixMultiply {
 				}
 			}
 			
-			
+			//矩阵的零次幂为单位矩阵
 			for(int i = 0; i < n; i++)
 			{
 				b[i][i] = 1;
