@@ -34,16 +34,17 @@ public class MaxNumber {
 				hashMap.put(list.get(i), 1);
 			}
 		}
-		
-		Set<Integer> set = hashMap.keySet();
 		int max = 0;
-		
-		for(Integer key : set){
-			System.out.println(key + "-->" + hashMap.get(key));
-			
+		int index = 0;
+		for(int i = 0; i < hashMap.size(); i++)
+		{
+			if(max < hashMap.get(list.get(i)))
+			{
+				max = hashMap.get(list.get(i));
+				index = i;
+			}
 		}
-		
-		
+		System.out.println(list.get(index));
 	}
 	
 }	
