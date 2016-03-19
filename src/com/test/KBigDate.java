@@ -13,7 +13,7 @@ public class KBigDate {
 		int n = sc.nextInt();
 		
 		for(int i = 0; i < n; i++) {
-			rs.add(sc.nextInt());
+			rs.add(sc.nextInt());   
 		}
 		int m = sc.nextInt();
 		
